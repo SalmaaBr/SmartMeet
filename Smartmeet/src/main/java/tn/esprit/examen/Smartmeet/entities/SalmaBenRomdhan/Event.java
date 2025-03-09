@@ -34,8 +34,7 @@ public class Event implements Serializable {
 
     @Enumerated(EnumType.STRING)
     private TypeTheme typetheme;
-
-    private String heloo;
+    
     private String title;
     private String description;
     private String location;
