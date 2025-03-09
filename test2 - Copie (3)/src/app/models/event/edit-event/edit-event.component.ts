@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { EventService } from '../../services/event.service';  // Vérifie l'import
+import { EventService } from '../../../services/event.service';  // Vérifie l'import
 import { TypeEvent, TypeTheme, TypeWeather } from '../../event/createevent/createevent/event.enums';
 @Component({
   selector: 'app-edit-event',

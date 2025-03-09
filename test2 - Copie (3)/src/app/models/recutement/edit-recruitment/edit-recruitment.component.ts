@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { RecutementService } from '../../services/recutement.service';
+import { RecutementService } from '../../../services/recutement.service';
 
 @Component({
   selector: 'app-edit-recruitment',

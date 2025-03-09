@@ -17,10 +17,10 @@ import { FooterBackComponent } from './BackOffice/footer-back/footer-back.compon
 import { HomeFrontComponent } from './FrontOffice/home-front/home-front.component';
 import { AboutFrontComponent } from './FrontOffice/about-front/about-front.component';
 import { ServiceFrontComponent } from './FrontOffice/service-front/service-front.component';
-import { RegisterComponent } from './User/register/register.component';
-import { AllTemplateUserComponent } from './User/all-template-user/all-template-user.component';
-import { LoginComponent } from './User/login/login.component';
-import { PasswordComponent } from './User/password/password.component';
+import { RegisterComponent } from './models/User/register/register.component';
+import { AllTemplateUserComponent } from './models/User/all-template-user/all-template-user.component';
+import { LoginComponent } from './models/User/login/login.component';
+import { PasswordComponent } from './models/User/password/password.component';
 import { PortfolioComponent } from './FrontOffice/portfolio/portfolio.component';
 import { ContactComponent } from './FrontOffice/contact/contact.component';
 import { ResourceManagementComponent } from './BackOffice/resource-management/resource-management.component';
@@ -30,12 +30,12 @@ import { ResourceService} from "./services/resource.service";
 import { AddInteractivePublicationComponent } from './FrontOffice/add-interactive-publication/add-interactive-publication.component';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CreateeventComponent } from './event/createevent/createevent/createevent.component';
-import { GeteventComponent } from './event/getevent/getevent/getevent.component';
-import { EditEventComponent } from './event/edit-event/edit-event.component';
-import { CreateRecutementComponent } from './recutement/create-recutement/create-recutement.component';
-import { MonitoringRecruitmentListComponent } from './recutement/monitoring-recruitment-list/monitoring-recruitment-list.component';
-import { EditRecruitmentComponent } from './recutement/edit-recruitment/edit-recruitment.component';
+import { CreateeventComponent } from './models/event/createevent/createevent/createevent.component';
+import { GeteventComponent } from './models/event/getevent/getevent/getevent.component';
+import { EditEventComponent } from './models/event/edit-event/edit-event.component';
+import { CreateRecutementComponent } from './models/recutement/create-recutement/create-recutement.component';
+import { MonitoringRecruitmentListComponent } from './models/recutement/monitoring-recruitment-list/monitoring-recruitment-list.component';
+import { EditRecruitmentComponent } from './models/recutement/edit-recruitment/edit-recruitment.component';
 import { DashboardComponent } from './FrontOffice/dashboard/dashboard.component';
 
 

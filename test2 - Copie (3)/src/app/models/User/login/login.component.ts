@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthService } from '../../auth/auth.service';
+import { AuthService } from '../../../auth/auth.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -28,7 +28,7 @@ export class LoginComponent {
         if (roles.includes('ADMIN')) {
           this.router.navigate(['/front']);
         } else if (roles.includes('USER')) {
-          this.router.navigate(['/front']);
+          this.router.navigate(['/admin']);
         } else {
           console.error('Rôle non reconnu');
         }

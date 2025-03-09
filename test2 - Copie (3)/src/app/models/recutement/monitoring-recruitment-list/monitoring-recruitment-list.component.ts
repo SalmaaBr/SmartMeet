@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RecutementService } from '../../services/recutement.service';
+import { RecutementService } from '../../../services/recutement.service';
 import { Router } from '@angular/router';  // Importer Router pour la redirection après l'édition
 
 @Component({
