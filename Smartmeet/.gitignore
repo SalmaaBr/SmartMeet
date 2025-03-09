@@ -1,0 +1,50 @@
+Smartmeet/HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Ignorer tout dans le dossier Smartmeet
+Backend/Smartmeet/*
+
+# Inclure seulement le dossier src et le fichier pom.xml
+!Backend/Smartmeet/Smartmeet/src/
+!Backend/Smartmeet/Smartmeet/pom.xml
+
+
+
+# Ignorer .idea et autres fichiers générés
+.idea/
+target/
+.mvn/
+*.iml
+
